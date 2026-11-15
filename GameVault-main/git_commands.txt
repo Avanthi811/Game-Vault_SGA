@@ -1,0 +1,145 @@
+# Git & GitHub Assignment – Command Documentation
+
+## 1. Git Configuration and Repository Setup
+
+**git --version**
+
+Displays the installed Git version.
+
+**git config --global user.name "SDineshReddy-06*
+
+Sets the name associated with Git commits.
+
+**git config --global user.email "sdreddy786@gmail.com"**
+
+Sets the email address associated with Git commits.
+
+**git init**
+
+Initializes a new Git repository in the current folder.
+
+**git branch -M main**
+
+Renames the current branch to main.
+
+## 2. Staging and Commits
+
+**git status**
+
+Displays the current repository status and modified or untracked files.
+
+**git add index.html about.html**
+
+Stages the specified HTML files for committing.
+
+**git add index.html**
+
+Stages the modified index.html file.
+
+**git add about.html**
+
+Stages the modified about.html file.
+
+**git commit -m "Initial project structure"**
+
+Creates the first commit containing the initial project files.
+
+**git commit -m "Update home page content"**
+
+Records the changes made to the home page.
+
+**git commit -m "Add feature description"**
+
+Records the feature changes made to about.html.
+
+## 3. Branching and Merging
+
+**git branch**
+
+Lists all local branches and identifies the current branch.
+
+**git branch feature**
+
+Creates a new branch named feature.
+
+**git switch feature**
+
+Switches the working directory to the feature branch.
+
+**git switch main**
+
+Switches back to the main branch.
+
+**git merge feature**
+
+Merges the changes from feature into the currently checked-out branch.
+
+**git log --oneline**
+
+Displays a compact history of commits.
+
+**git log --oneline --graph --decorate --all**
+
+Displays the commit history with branch names and graph relationships.
+
+## 4. Git Diff and Ignore Operations
+
+**git diff**
+
+Displays differences between the working files and the latest commit.
+
+**git status --short**
+
+Displays a concise summary of repository changes.
+
+**git check-ignore -v debug.log temp/sample.txt**
+
+Checks whether the specified files are ignored and identifies the matching rules.
+
+**git add .gitignore**
+
+Stages the .gitignore file.
+
+**git commit -m "Add Git ignore rules"**
+
+Commits the Git ignore configuration.
+
+## 5. Undo Operation
+
+**git add temporary.txt**
+
+Stages the temporary demonstration file.
+
+**git commit -m "Add temporary file for revert demonstration"**
+
+Creates an additional commit for demonstrating the undo operation.
+
+**git revert --no-edit HEAD**
+
+Creates a new commit that reverses the changes introduced by the latest commit.
+
+## 6. GitHub Integration
+
+**git remote add origin https://github.com/Dinesh-Reddy-Siramgari/GameVault.git**
+
+Connects the local repository to the remote GitHub repository.
+
+**git remote -v**
+
+Displays the configured remote repository URLs.
+
+**git push -u origin main**
+
+Pushes the main branch to GitHub and sets its upstream tracking branch.
+
+**git push -u origin feature**
+
+Pushes the feature branch to GitHub and sets its upstream tracking branch.
+
+**git push**
+
+Pushes new commits to the configured upstream branch.
+
+---
+
+End of Git command documentation.
